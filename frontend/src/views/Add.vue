@@ -41,8 +41,8 @@
                             description: this.description
                         },
                         auth: {
-                            username: 'Skye',
-                            password: 'renegade123'
+                            username: 'username',
+                            password: 'password'
                         }
                     }).then((response) => {
                         let newQuote = {

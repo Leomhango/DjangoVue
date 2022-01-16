@@ -26,8 +26,8 @@
           method: 'get',
           url: 'http://192.168.0.112:8000/quotes',
           auth: {
-            username: 'Skye',
-            password: 'renegade123'
+            username: 'username',
+            password: 'password'
           }
         }).then(response => this.quotes = response.data)
       }
