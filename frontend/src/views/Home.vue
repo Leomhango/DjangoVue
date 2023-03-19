@@ -24,10 +24,10 @@
       getQuotes() {
         axios({
           method: 'get',
-          url: 'http://192.168.0.112:8000/quotes',
+          url: 'http://localhost:8000/quotes',
           auth: {
-            username: 'username',
-            password: 'password'
+            username: 'leomhango',
+            password: '1234'
           }
         }).then(response => this.quotes = response.data)
       }
